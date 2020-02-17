@@ -10,7 +10,8 @@ int main(void)
     unsigned prime_candidate;
 	unsigned prime_candidate1;
 	unsigned prime_candidate2;
-
+unsigned prime_candidate3;
+unsigned prime_candidate4;
     while((prime_candidate = io_ask()) > 0)
     {
         if (is_prime(prime_candidate))
